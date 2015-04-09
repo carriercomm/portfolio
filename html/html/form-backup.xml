@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<form url="form.php"
+ window="_self"
+ method="POST"
+ fontname="MS Sans Serif"
+ width="600"
+ height="950"
+ bkcolor="0x94DDFA"
+ transparent="f"
+ outlinecolor="0x94DDFA"
+ fontcolor="0x000000"
+ themecolor="0xFFFF99"
+ fontcolor2="#000000"
+ bkcolor2="#FFFFFF"
+ includeresults="false"
+ emailuser="true"
+ bcc=""
+ cc=""
+ reqmessage="One or More Fields are Required"
+ transition="0"
+ autoresponseincluderesults="f"
+ autoresponseaddtotop="f"
+ usephp="true"
+ disableclicktoactiveprompt="true"
+ extensions="*.txt;*.gif;*.jpg;*.jpeg;*.zip;*.doc;*.png;*.pdf;*.rtf"
+>
+
+<hidden
+ name="subject"
+ value="Booking Query From Website"
+></hidden>
+
+<submitbutton
+ name="Submit Button 1"
+ x="304"
+ y="894"
+ w="83"
+ h="20"
+ label="Submit"
+ fontname="Arial"
+ fontcolor="0x000000"
+  fontsize="12"
+></submitbutton>
+
+<textinput
+ name="My Input Box 2"
+ x="301"
+ y="20"
+ w="175"
+ h="22"
+ initvalue=""
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+>
+</textinput>
+
+<textarea
+ name="My Text Area 1"
+ x="300"
+ y="59"
+ w="174"
+ h="64"
+ initvalue=""
+ wordwrap="true"
+ bkcolor="0xFFFFFF"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></textarea>
+
+<textinput
+ name="My Input Box 1"
+ x="300"
+ y="140"
+ w="175"
+ h="22"
+ initvalue=""
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+>
+</textinput>
+
+<textinput
+ name="My Input Box 3"
+ x="300"
+ y="180"
+ w="175"
+ h="22"
+ initvalue=""
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ emailbox="true"
+  restrict="email"
+>
+</textinput>
+
+<textinput
+ name="My Input Box 4"
+ x="300"
+ y="220"
+ w="175"
+ h="22"
+ initvalue=""
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ required="true"
+>
+</textinput>
+
+<radiobutton
+ name="My Radio Button 1"
+ x="299"
+ y="265"
+ w="37"
+ h="22"
+ label="Tel"
+ labelPos="right"
+ groupname="Group 1"
+ value="radiobutton1"
+  fontsize="12"
+  fontname="Verdana"
+  fontcolor="0x000000"
+></radiobutton>
+
+<radiobutton
+ name="My Radio Button 2"
+ x="351"
+ y="265"
+ w="55"
+ h="22"
+ label="Email"
+ labelPos="right"
+ groupname="Group 1"
+ value="radiobutton1"
+  fontsize="12"
+  fontname="Verdana"
+  fontcolor="0x000000"
+></radiobutton>
+
+<combobox
+ name="My Drop Down 1"
+ x="300"
+ y="306"
+ bkcolor="0xFFFFFF"
+ fontcolor="0x000000"
+ required="true"
+ isemail="false"
+ w="169"
+ h="20">
+  <item name="Airfare"></item>
+  <item name="Cruise"></item>
+  <item name="Hotel"></item>
+  <item name="Car-rental"></item>
+  <item name="Packages"></item>
+</combobox>
+
+<combobox
+ name="My Drop Down 2"
+ x="300"
+ y="346"
+ bkcolor="0xFFFFFF"
+ fontcolor="0x000000"
+ required="true"
+ isemail="false"
+ w="169"
+ h="20">
+  <item name="Round-Trip"></item>
+  <item name="One-Way"></item>
+</combobox>
+
+<combobox
+ name="My Drop Down 3"
+ x="300"
+ y="382"
+ bkcolor="0xFFFFFF"
+ fontcolor="0x000000"
+ required="true"
+ isemail="false"
+ w="166"
+ h="20">
+  <item name="Lowest Fare "></item>
+  <item name="Economy"></item>
+  <item name="Economy or Business"></item>
+  <item name="Business Class"></item>
+  <item name="Business or First Class"></item>
+  <item name="First Class"></item>
+</combobox>
+
+<textinput
+ name="My Input Box 10"
+ x="300"
+ y="422"
+ w="175"
+ h="22"
+ initvalue=""
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+>
+</textinput>
+
+<textinput
+ name="My Input Box 11"
+ x="300"
+ y="470"
+ w="175"
+ h="22"
+ initvalue=""
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ required="true"
+>
+</textinput>
+
+<textinput
+ name="My Input Box 12"
+ x="300"
+ y="558"
+ w="175"
+ h="22"
+ initvalue=""
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ required="true"
+>
+</textinput>
+
+<textinput
+ name="My Input Box 13"
+ x="300"
+ y="602"
+ w="175"
+ h="22"
+ initvalue=""
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ required="true"
+>
+</textinput>
+
+<combobox
+ name="My Drop Down 4"
+ x="300"
+ y="710"
+ bkcolor="0xFFFFFF"
+ fontcolor="0x000000"
+ required="true"
+ isemail="false"
+ w="176"
+ h="20">
+  <item name="Credit Card"></item>
+  <item name="Cheque"></item>
+  <item name="Cash"></item>
+</combobox>
+
+<combobox
+ name="My Drop Down 5"
+ x="300"
+ y="678"
+ bkcolor="0xFFFFFF"
+ fontcolor="0x000000"
+ isemail="false"
+ w="176"
+ h="20">
+  <item name="Yes"></item>
+  <item name="No"></item>
+</combobox>
+
+<textinput
+ name="My Input Box 14"
+ x="300"
+ y="514"
+ w="175"
+ h="22"
+ initvalue=""
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ required="true"
+>
+</textinput>
+
+<textarea
+ name="My Text Area 4"
+ x="304"
+ y="786"
+ w="174"
+ h="79"
+ initvalue=""
+ wordwrap="true"
+ bkcolor="0xFFFFFF"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></textarea>
+
+<resetbutton
+ name="Submit Button 2"
+ x="404"
+ y="894"
+ w="70"
+ h="20"
+ label="Reset"
+ fontname="Arial"
+ fontcolor="0x000000"
+  fontsize="12"
+></resetbutton>
+
+<label
+ name="My Text 1"
+ x="4"
+ y="16"
+ w="143"
+ h="20"
+ text="Your Full Name:"
+  fontname="Verdana"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 2"
+ x="4"
+ y="59"
+ w="245"
+ h="20"
+ text="Co-Passengers Name If Any"
+  fontname="Verdana"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 3"
+ x="4"
+ y="139"
+ w="248"
+ h="20"
+ text="Total Number Of Passengers"
+  fontname="Verdana"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 4"
+ x="4"
+ y="180"
+ w="195"
+ h="20"
+ text="Valid Email Address:*"
+  fontname="Verdana"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 5"
+ x="4"
+ y="220"
+ w="199"
+ h="20"
+ text="Valid Phone Number:*"
+  fontname="Verdana"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 13"
+ x="4"
+ y="265"
+ w="238"
+ h="20"
+ text="Preferred Mode Of Contact:"
+  fontname="Verdana"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 14"
+ x="4"
+ y="310"
+ w="125"
+ h="20"
+ text="Type of Trip:*"
+  fontname="Verdana"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 15"
+ x="4"
+ y="346"
+ w="223"
+ h="20"
+ text="One Way or Round Trip:*"
+  fontname="Verdana"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 16"
+ x="4"
+ y="382"
+ w="159"
+ h="20"
+ text="Class of Service:*"
+  fontname="Verdana"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 17"
+ x="4"
+ y="426"
+ w="241"
+ h="20"
+ text="Preferred Airlines (if any):*"
+  fontname="Verdana"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 18"
+ x="4"
+ y="470"
+ w="263"
+ h="20"
+ text="City &amp; Country of Departure:*"
+  fontname="Verdana"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 19"
+ x="4"
+ y="514"
+ w="275"
+ h="20"
+ text="City &amp; Country of Destination:*"
+  fontname="Verdana"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 20"
+ x="4"
+ y="558"
+ w="177"
+ h="20"
+ text="Date of Departure:*"
+  fontname="Verdana"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 22"
+ x="4"
+ y="646"
+ w="564"
+ h="20"
+ text="Would you travel on different dates if lower fares were available?"
+  fontname="Verdana"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 23"
+ x="4"
+ y="758"
+ w="451"
+ h="20"
+ text="Any Special Comments / Stop Over if any or Notes?"
+  fontname="Verdana"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 24"
+ x="4"
+ y="710"
+ w="263"
+ h="20"
+ text="Preferred Mode Of Payment! *"
+  fontname="Verdana"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 21"
+ x="4"
+ y="602"
+ w="155"
+ h="20"
+ text="Date of Return: *"
+  fontname="Verdana"
+  fontcolor="0x000000"
+  fontsize="13"
+></label>
+
+</form>
